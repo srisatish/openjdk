@@ -1,0 +1,10 @@
+export ALT_BOOTDIR=~/work/jdk1.6.0_24/
+# corba build needs to use latest definitions in source
+export OTHER_JAVACFLAGS=-Xprefer:source
+# for jdk classes to compile (Serializable classes fail when prefer source is on)
+export OTHER_JAVACFLAGS=" "
+
+#add allow.downloads=true to the following props:
+vi openjdk/jaxws/build.properties 
+vi openjdk/jaxp/build.properties 
+

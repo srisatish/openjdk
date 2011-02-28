@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='31456' time_ms='1298803811136'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+19.0-b09-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (19.0-b09-jvmg) for linux-amd64 JRE (1.6.0-internal-debug-sris_26_feb_2011_19_34-b00), built on Feb 26 2011 19:53:06 by &quot;sris&quot; with gcc 4.4.5
+</info>
+</vm_version>
+<vm_arguments>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.version=1.0
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.version=19.0-b09-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.vendor=Sun Microsystems Inc.
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/endorsed
+sun.boot.library.path=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/amd64
+java.library.path=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/amd64/server:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/amd64:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre
+java.class.path=.
+sun.boot.class.path=/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/resources.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/rt.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/sunrsasign.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/jsse.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/jce.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/charsets.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/lib/modules/jdk.boot.jar:/media/itstore/work/openjdk/build/linux-amd64-debug/j2sdk-image/jre/classes
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='140172413544192'/>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 0  Methods parsed: 0  Nodes created: 0
+Blocks parsed: 0  Blocks seen: 0
+CCP: 0  constants found: 0
+Total frameslots = 0, Max frameslots = 0
+Nops added 0 bytes to total of 0 bytes
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=0, sum _unique=0
+</statistics>
+<statistics type='nmethod'>
+Debug Data Chunks: 0, shared 0+0, non-SP&apos;s elided 0
+PcDesc Statistics:  0 queries, -nan comparisons per query
+  caches=0 queries=0/0, hits=0+0, tests=0+0, adds=0
+</statistics>
+<statistics type='SharedRuntime'>
+    0 inline cache miss in compiled
+    0 wrong method
+    0 unresolved static call site
+    0 unresolved virtual call site
+    0 unresolved opt virtual call site
+    3 slow partial subtype
+   12 byte array copies
+   12 short array copies
+   12 int array copies
+   12 long array copies
+AdapterHandlerTable: empty 196 longest 3 total 112 average 1.154639
+AdapterHandlerTable: lookups 3769 buckets 3918 equals 3659 hits 3657 compact 3657
+</statistics>
+<writer thread='140172280223488'/>
+<destroy_vm stamp='0.496'/>
+<tty_done stamp='0.523'/>
+</tty>
+<hotspot_log_done stamp='0.523'/>
+</hotspot_log>
